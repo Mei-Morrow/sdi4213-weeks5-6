@@ -1,20 +1,20 @@
 # Week 5-6 Exercise Evidence
 
-Name:
-GitHub repository URL:
+Name: Mei Morrow
+GitHub repository URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6.git
 
 ## Part A - Starting validation
-- Local pytest result:
-- Initial CI workflow run URL:
+- Local pytest result: 15 passed, 1 warning
+- Initial CI workflow run URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6/actions/runs/36925893451
 
 ## Part B - Week 5 build automation
-- Pull request URL:
-- Successful workflow run URL:
-- Artifact name:
-- What files are inside the downloaded artifact?
+- Pull request URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6/pull/2
+- Successful workflow run URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6/actions/runs/36929017972
+- Artifact name: sdi4213-app
+- What files are inside the downloaded artifact? app/, requirements.txt, README.md, and VERSION
 
 ## Part C - Version and release
-- Version:
+- Version: 0.1.0
 - Git tag:
 - GitHub Release URL:
 - Short release-note summary:
