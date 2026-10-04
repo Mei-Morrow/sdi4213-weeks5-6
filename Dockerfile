@@ -11,13 +11,13 @@ WORKDIR /app
 COPY requirements.txt .
 
 # TODO 4: Install Python dependencies without retaining the pip cache.
-# RUN ...
+RUN python -m pip install --no-cache-dir -r requirements.txt
 
 # TODO 5: Copy the app directory into the image.
-# COPY ...
+COPY app ./app
 
 # TODO 6: Document the FastAPI application port.
-# EXPOSE ...
+EXPOSE 8000
 
 # TODO 7: Start Uvicorn and bind to 0.0.0.0 on port 8000.
-# CMD [...]
+CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
