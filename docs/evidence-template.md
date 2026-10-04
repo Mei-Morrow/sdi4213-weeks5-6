@@ -30,6 +30,10 @@ Note: Container was stopped and removed but image was confirmed to remain (see s
 
 ## Reflection
 1. What is the difference between a workflow artifact and a Docker image?
+The artifact I created is a downloadable ZIP of application files produced by CI. The Docker image includes the application, Python runtime and installed dependencies. Docker uses the image to create containers.
 2. Why did you tag the Git release and Docker image with a version?
+The version (v0.1.0) identifies the Git commit and the image tag (0.1.0) labels the application version. Versioning is important to help identify what is being used and select specific versions when needed.
 3. What does `-p 8000:8000` do?
+The first number is the port number on the computer. The second is the port inside the container. Mapping them lets PowerShell requests reach the application through localhost:8000.
 4. What would you automate next if this project were moving toward deployment?
+One step that could be automated is the CI building the Docker image and testing the health endpoint. CI tests and packages the application but I had to verify Docker locally.
