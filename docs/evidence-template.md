@@ -17,7 +17,7 @@ GitHub repository URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6.git
 - Version: 0.1.0
 - Git tag: v0.1.0
 - GitHub Release URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6/releases/tag/v0.1.0
-- Short release-note summary:
+- Short release-note summary: Released version 0.1.0 of the FastAPI inventory application with passing automated tests and a CI-generated ZIP artifact containing the application and required release files.
 
 ## Part D - Week 6 Docker
 - Docker image name and tag: sdi4213-week56:0.1.0
