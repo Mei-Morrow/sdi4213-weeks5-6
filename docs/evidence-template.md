@@ -15,16 +15,18 @@ GitHub repository URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6.git
 
 ## Part C - Version and release
 - Version: 0.1.0
-- Git tag:
-- GitHub Release URL:
+- Git tag: v0.1.0
+- GitHub Release URL: https://github.com/Mei-Morrow/sdi4213-weeks5-6/releases/tag/v0.1.0
 - Short release-note summary:
 
 ## Part D - Week 6 Docker
-- Docker image name and tag:
-- `docker images` evidence:
-- `docker ps` evidence:
-- `/health` response:
-- `docker logs` evidence:
+- Docker image name and tag: sdi4213-week56:0.1.0
+- `docker images` evidence: versioned image exists
+- `docker ps` evidence: sdi4213-week56-demo was running with port 8000:8000
+- `/health` response: returned status: ok
+- `docker logs` evidence: Uvicorn started and GET /health returned 200 OK
+
+Note: Container was stopped and removed but image was confirmed to remain (see screenshots 6-9)
 
 ## Reflection
 1. What is the difference between a workflow artifact and a Docker image?
